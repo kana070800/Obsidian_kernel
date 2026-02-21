@@ -39,10 +39,24 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-21 15.08.58.excalidraw"
+              "title": "Drawing 2026-02-21 14.23.59.excalidraw"
+            }
+          },
+          {
+            "id": "098b5c1e6c062260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ets"
             }
           },
           {
@@ -72,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
+                "file": "ets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Drawing 2026-02-21 15.08.58.excalidraw 의 백링크"
+              "title": "ets 의 백링크"
             }
           },
           {
@@ -192,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
+                "file": "ets.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Drawing 2026-02-21 15.08.58.excalidraw 의 개요"
+              "title": "ets 의 개요"
             }
           },
           {
@@ -231,12 +245,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ef09b6bd2b0cd58",
+  "active": "098b5c1e6c062260",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md",
     "ets.md",
-    "무제.md",
     "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
+    "유ㅠㅠ.md",
     "Excalidraw"
   ]
 }
