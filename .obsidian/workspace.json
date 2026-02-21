@@ -192,12 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "Drawing 2026-02-21 15.08.58.excalidraw 의 개요"
             }
           },
           {
@@ -230,7 +231,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b5d6a3aeb48ec29",
+  "active": "4ef09b6bd2b0cd58",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md",
     "ets.md",
