@@ -29,8 +29,20 @@
               "state": {
                 "file": "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md"
               },
+              "icon": "lucide-ghost",
+              "title": "excalidraw"
+            }
+          },
+          {
+            "id": "4b5d6a3aeb48ec29",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md"
+              },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-21 14.23.59.excalidraw"
+              "title": "Drawing 2026-02-21 15.08.58.excalidraw"
             }
           },
           {
@@ -45,6 +57,18 @@
               },
               "icon": "lucide-file",
               "title": "ets"
+            }
+          },
+          {
+            "id": "d85aaa0db9b7772a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.11.7"
             }
           }
         ],
@@ -121,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "Drawing 2026-02-21 15.08.58.excalidraw 의 백링크"
             }
           },
           {
@@ -174,30 +199,43 @@
               "icon": "lucide-list",
               "title": "개요"
             }
+          },
+          {
+            "id": "4ef09b6bd2b0cd58",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56d7150bcdf93202",
+  "active": "4b5d6a3aeb48ec29",
   "lastOpenFiles": [
-    "무제.md",
     "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md",
     "ets.md",
+    "무제.md",
+    "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
     "Excalidraw"
   ]
 }
