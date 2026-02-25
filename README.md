@@ -1,1 +1,1 @@
-summery of study contents
+summary of study contents
