@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cb19b1cbe3368ef8",
+        "id": "1d9d64337e4d15b9",
         "type": "tabs",
         "children": [
           {
-            "id": "6363e8d1ed0e59ec",
+            "id": "1fe1299744e0d149",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md"
+                "file": "raspbian_4.19/구조.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-21 14.23.59.excalidraw"
-            }
-          },
-          {
-            "id": "b7d8e9bfdb059efe",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "test/Drawing 2026-02-25 12.33.17.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-25 12.33.17.excalidraw"
-            }
-          },
-          {
-            "id": "4b5d6a3aeb48ec29",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-21 14.23.59.excalidraw"
-            }
-          },
-          {
-            "id": "d85aaa0db9b7772a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-21 15.08.58.excalidraw"
+              "title": "구조"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,14 +178,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7d8e9bfdb059efe",
+  "active": "f545f6672ddb4641",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md",
-    "test/Drawing 2026-02-25 12.33.17.excalidraw.md",
+    "raspbian_4.19/tast_struct.md",
+    "raspbian_4.19/구조.md",
     "ets.md",
-    "test/무제.canvas",
-    "test",
     "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md",
+    "test/무제.canvas",
+    "raspbian_4.19",
     "유ㅠㅠ.md",
     "Excalidraw"
   ]
