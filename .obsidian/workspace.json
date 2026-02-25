@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b7d8e9bfdb059efe",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "test/Drawing 2026-02-25 12.33.17.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-25 12.33.17.excalidraw"
+            }
+          },
+          {
             "id": "4b5d6a3aeb48ec29",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               "title": "Drawing 2026-02-21 15.08.58.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,12 +215,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ef09b6bd2b0cd58",
+  "active": "b7d8e9bfdb059efe",
   "lastOpenFiles": [
-    "test",
-    "ets.md",
-    "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
     "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md",
+    "test/Drawing 2026-02-25 12.33.17.excalidraw.md",
+    "ets.md",
+    "test/무제.canvas",
+    "test",
+    "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
     "유ㅠㅠ.md",
     "Excalidraw"
   ]
