@@ -11,12 +11,14 @@
             "id": "1fe1299744e0d149",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "raspbian_4.19/구조.md"
+                "file": "raspbian_4.19/thread_info.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "구조"
+              "icon": "lucide-file",
+              "title": "thread_info"
             }
           }
         ]
@@ -178,9 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f545f6672ddb4641",
+  "active": "1fe1299744e0d149",
   "lastOpenFiles": [
     "raspbian_4.19/tast_struct.md",
+    "raspbian_4.19/thread_info.md",
     "raspbian_4.19/구조.md",
     "ets.md",
     "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",
