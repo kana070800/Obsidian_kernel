@@ -1,4 +1,6 @@
+struct tast_struct
 {
 	
 
 }
+
