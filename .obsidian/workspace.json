@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "9312456fa7b9c47c",
+            "id": "8b6aff27bb4d9ab4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "telechips_class/C_programming/C언어_교육자료.pdf"
+                "file": "telechips_class/C_programming/3일차().md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "C언어_교육자료"
+              "icon": "lucide-file",
+              "title": "3일차()"
             }
           }
         ],
@@ -194,15 +196,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9312456fa7b9c47c",
+  "active": "8b6aff27bb4d9ab4",
   "lastOpenFiles": [
     "telechips_class/C_programming/2일차(25~70p).md",
+    "raspbian_4.19/process/무제.md",
+    "Excalidraw/Drawing 2026-02-25 16.09.18.excalidraw.md",
+    "telechips_class/C_programming/3일차().md",
     "telechips_class/C_programming/C언어_교육자료.pdf",
     "telechips_class/C_programming/1일차(1~24p).md",
-    "raspbian_4.19/thread_info.md",
     "raspbian_4.19/tast_struct.md",
+    "raspbian_4.19/process",
+    "3일차().md",
+    "raspbian_4.19/thread_info.md",
     "raspbian_4.19/구조.md",
-    "Excalidraw/Drawing 2026-02-25 16.09.18.excalidraw.md",
     "Excalidraw/Drawing 2026-02-25 16.10.06.excalidraw.md",
     "how to git connection.md",
     "README.md",
