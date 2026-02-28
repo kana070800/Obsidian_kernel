@@ -51,16 +51,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raspbian_4.19/others.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "others"
+              "title": "README"
+            }
+          },
+          {
+            "id": "b4c388a4771b4206",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "무제.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
+          },
+          {
+            "id": "21f2fc05479b13b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raspbian_4.19/process/kthread_create_on_node().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kthread_create_on_node()"
+            }
+          },
+          {
+            "id": "56a1ba255e342c2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raspbian_4.19/process/kthread_create_on_node().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "kthread_create_on_node()"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -117,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 282.5
   },
   "right": {
     "id": "42e55597fcc02c78",
@@ -219,24 +261,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80940edc76326fc9",
+  "active": "21f2fc05479b13b2",
   "lastOpenFiles": [
+    "raspbian_4.19/process/kthread_create().md",
+    "raspbian_4.19/process/kthread_create_on_node().md",
+    "raspbian_4.19/process/_do_fork().md",
+    "README.md",
+    "무제.md",
+    "how to git connection.md",
+    "Excalidraw/Drawing 2026-02-28 14.44.42.excalidraw.md",
+    "raspbian_4.19/process/information.md",
+    "raspbian_4.19/구조.md",
     "raspbian_4.19/tast_struct.md",
+    "telechips_class/C_programming/2일차(25~70p).md",
+    "telechips_class/C_programming/3일차().md",
+    "telechips_class/C_programming/C언어_교육자료.pdf",
+    "raspbian_4.19/system_call/info.md",
+    "raspbian_4.19/system_call/syscalls.md",
+    "telechips_class/C_programming/1일차(1~24p).md",
     "raspbian_4.19/others.md",
     "raspbian_4.19/thread_info.md",
     "Excalidraw/Drawing 2026-02-28 13.23.29.excalidraw.md",
     "Excalidraw/Drawing 2026-02-28 13.23.39.excalidraw.md",
-    "raspbian_4.19/process/kthread_create().md",
-    "raspbian_4.19/process/kthread_create_on_node().md",
-    "raspbian_4.19/process/info.md",
-    "raspbian_4.19/process/_do_fork().md",
-    "raspbian_4.19/system_call/syscalls.md",
-    "raspbian_4.19/system_call/info.md",
-    "무제.md",
     "raspbian_4.19/system_call",
-    "telechips_class/C_programming/1일차(1~24p).md",
-    "raspbian_4.19/구조.md",
-    "how to git connection.md",
     "2026-02-28.md",
     "무제 2.canvas",
     "무제 1.canvas",
@@ -244,14 +291,10 @@
     "무제 1.base",
     "무제.base",
     "ets.md",
-    "telechips_class/C_programming/C언어_교육자료.pdf",
-    "telechips_class/C_programming/2일차(25~70p).md",
-    "telechips_class/C_programming/3일차().md",
     "telechips_class/C_programming",
     "telechips_class",
     "raspbian_4.19/process",
     "raspbian_4.19",
-    "README.md",
     "Excalidraw/Drawing 2026-02-25 16.09.18.excalidraw.md",
     "Excalidraw/Drawing 2026-02-21 14.23.59.excalidraw.md",
     "Excalidraw/Drawing 2026-02-21 15.08.58.excalidraw.md",

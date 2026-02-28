@@ -20,3 +20,5 @@ struct task_struct *kthread_create_on_node(int (*threadfn)(void *data),
 		커널 스레드 이름 저장
 
 [[kthread_create_on_node()]]
+
+ex) 1권 > 176p
