@@ -5,18 +5,19 @@ systemd
 kthreadd
 	모든 커널 스레드의 부모
 
-프로세스 생성
-	`_do_fork()` 함수를 호출한다는 공통점 [[_do_fork()]]
+프로세스 생성 [[_do_fork()]]
+	`_do_fork()` 함수를 호출한다는 공통점
 		유저 프로세스
-			fork() 나 pthread_create() 함수 호출
-				sys_clone -- [[syscalls]]
 			라이브러리의 도움을 받아 커널에게 요청(gnu c : gilbc)
+			fork() 나 pthread_create() 함수 호출
+				sys_clone 을 통해 `_do_fork()`호출-- [[syscalls]] 
 		커널 프로세스
 			kthread_create() 호출하여 생성
+				내부에서 `_do_fork()`호출
 
 
 생성 과정 call_stack (in usr mode)
-	copy_process.part.5
+	copy_process.part.*
 	`_do_fork`
 	sys_clone
 	ret_fast_syscall
@@ -33,6 +34,26 @@ kthreadd
 종료 과정 call_stack (in usr mode)   from exit system call
 	do_exit
 	do_group_exit
-	`__wake_up_parent+0x0` >> sys_exit_group 이 실제로 호출 
+	`__wake_up_parent+0x0` >> sys_group_exit() 이 실제로 호출------ `1권 277p`
 	ret_fast_syscall
+
+whoami, cat 시스템 콜 실습
+---
+생성 과정 call_stack
+sched_process_fork ftrace log 
+execve 시스템 콜 발생
+	search_binary_handler
+	`__do_execve_file`
+	do_execve
+	sys_execve
+	ret_fast_syscall
+
+파일 시스템의 파일이 메모리에 적재되어 프로세스가 되었다
+
+sys_execve() > do_execveat_common() > exec_binprm() > trace_sched_process_exec 실행
+whoami 프로세스 종료 call_stack
+
+리눅스 유틸리티 프로그램을 실행할 때 fork와 execve 시스템 콜을 호출한다
+종료시 exit 시스템 콜을 호출한다
+sched_process_exec 이벤트 ftrace로 파일 위치를 알 수 있다
 
