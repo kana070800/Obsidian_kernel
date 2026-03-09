@@ -57,9 +57,47 @@ struct thread_info {
 
 함수 호출시 발생하는 푸시, 팝의 동작의 경우 어셈블리 코드에서 확인가능
 
+%%arch/arm/include/asm/thread_info.h%%
+```
+struct cpu_context_save {
+	__u32	r4;
+	__u32	r5;
+	__u32	r6;
+	__u32	r7;
+	__u32	r8;
+	__u32	r9;
+	__u32	sl;
+	__u32	fp;
+	__u32	sp;
+	__u32	pc;
+	__u32	extra[2];		/* Xscale 'acc' register, etc */
+};
+```
 
+인터럽트의 경우 실행중인 프로세스의 레지스터 세트를 프로세스 스텍에 저장한다
+preempt_count()
+---
+%%include/asm-generic/preempt.h%%
+```
+static __always_inline int preempt_count(void)
+{
+	return READ_ONCE(current_thread_info()->preempt_count);
+}
+```
+스택 최상단 주소의 thread_info 의 preempt_count 필드를 얻어온다
+%%arch/arm/include/asm/thread_info.h%%
+```
+register unsigned long current_stack_pointer asm ("sp");
 
-
+static inline struct thread_info *current_thread_info(void)
+{
+	return (struct thread_info *)
+		(current_stack_pointer & ~(THREAD_SIZE - 1));
+}
+```
+register를 사용하여 스택주소를 current_stack_pointer 변수로 읽는 동작
+현재 실행중인 프로세스의 스택 최상단 주소 계산
+인라인 어셈블리 asm("sp") 사용
 cpu 필드 분석
 ---
  raw_smp_process_id() 구현부
