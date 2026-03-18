@@ -115,7 +115,7 @@ ffff1030:	e10f0000 	mrs	r0, CPSR
 irq 서브시스템 구성 함수에서 다양한 예외처리 수행
 
 `__handle_domain_irq()`구현부
-%%%%
+%%kernel/irq/irqdesc.c%%
 ```
 int __handle_domain_irq(struct irq_domain *domain, unsigned int hwirq,
 			bool lookup, struct pt_regs *regs)

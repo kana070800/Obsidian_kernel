@@ -18,3 +18,12 @@ workqueue
 irq 스레드의 경우 RT 프로세스로 구동되어 선점 스케쥴링 불가
 	자주 발생하는 인터럽트에 부적합(워크큐도 마찬가지)
 자주발생하는 경우 softirq나 tasklet이 적합
+
+
+softirq 컨택스트 확인
+---
+in_softirq() 함수를 사용
+%%include/linux/preempt.h%%
+```
+#define in_softirq()		(softirq_count())
+```

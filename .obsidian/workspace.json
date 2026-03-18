@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "softirq"
             }
+          },
+          {
+            "id": "f63407d5a6d7c913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raspbian_4.19/interrupt/bottom half/tasklet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tasklet"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -238,22 +252,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9d1adbef24a14e4",
+  "active": "f63407d5a6d7c913",
   "lastOpenFiles": [
-    "raspbian_4.19/interrupt/bottom half/irq_thread.md",
     "raspbian_4.19/interrupt/bottom half/information.md",
+    "raspbian_4.19/interrupt/bottom half/softirq.md",
+    "raspbian_4.19/interrupt/information.md",
+    "raspbian_4.19/interrupt/bottom half/tasklet.md",
     "raspbian_4.19/interrupt/interrupt 시 컨텍스트 흐름.md",
+    "raspbian_4.19/process/thread_info.md",
+    "raspbian_4.19/interrupt/bottom half/irq_thread.md",
+    "raspbian_4.19/others.md",
+    "raspbian_4.19/process/task_struct.md",
+    "telechips_class/자료구조_알고리즘/2026-3-18.md",
+    "telechips_class/자료구조_알고리즘/2026-3-17.md",
+    "telechips_class/C_programming/C언어_교육자료.pdf",
+    "telechips_class/C_programming/포인터_배열_함수_개념정리.pdf",
     "raspbian_4.19/process/information.md",
     "interrupt 시 컨택스트 흐름.md",
-    "raspbian_4.19/interrupt/information.md",
     "raspbian_4.19/interrupt/irq_desc.md",
-    "raspbian_4.19/interrupt/bottom half/tasklet.md",
-    "raspbian_4.19/interrupt/bottom half/softirq.md",
     "raspbian_4.19/process/커널 스레드 생성.md",
     "raspbian_4.19/interrupt/bottom half/workqueue.md",
     "telechips_class/자료구조_알고리즘/강의자료_02.pdf",
     "telechips_class/시간표.md",
-    "telechips_class/자료구조_알고리즘/2026-3-17.md",
     "telechips_class/자료구조_알고리즘/강의자료_01.pdf",
     "telechips_class/자료구조_알고리즘/Drawing 2026-03-12 15.53.10.excalidraw.md",
     "telechips_class/자료구조_알고리즘/2026-3-12,13.md",
@@ -262,15 +282,9 @@
     "telechips_class/C_programming/2026-2-27.md",
     "telechips_class/C_programming/2026-3-05.md",
     "telechips_class/C_programming/2026-3-03.md",
-    "telechips_class/C_programming/C언어_교육자료.pdf",
     "telechips_class/C_programming/Drawing 2026-03-11 12.12.38.excalidraw.md",
     "telechips_class/C_programming/2026-3-12.md",
     "how to git connection.md",
-    "raspbian_4.19/process/프로세스 종료.md",
-    "raspbian_4.19/memory/슬랩 캐시.md",
-    "raspbian_4.19/memory/가상주소.md",
-    "telechips_class/C_programming/포인터_배열_함수_개념정리.pdf",
-    "telechips_class/C_programming/2026-3-04.md",
     "telechips_class/자료구조_알고리즘",
     "telechips_class/C_programming/이미지/Pasted image 20260312123504.png",
     "telechips_class/C_programming/이미지/Pasted image 20260310145534.png",
