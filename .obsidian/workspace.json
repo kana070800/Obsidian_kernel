@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raspbian_4.19/interrupt/bottom half/tasklet.md",
+                "file": "raspbian_4.19/interrupt/bottom half/information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tasklet"
+              "title": "information"
             }
           }
         ],
@@ -254,8 +254,11 @@
   },
   "active": "f63407d5a6d7c913",
   "lastOpenFiles": [
-    "raspbian_4.19/interrupt/bottom half/softirq.md",
+    "raspbian_4.19/interrupt/information.md",
+    "raspbian_4.19/interrupt/irq_desc.md",
     "raspbian_4.19/interrupt/bottom half/tasklet.md",
+    "raspbian_4.19/interrupt/bottom half/softirq.md",
+    "raspbian_4.19/interrupt/bottom half/information.md",
     "무제 1.base",
     "무제.base",
     "raspbian_4.19/interrupt/bottom half/irq_thread.md",
@@ -275,15 +278,12 @@
     "raspbian_4.19/system_call/syscalls.md",
     "telechips_class/자료구조_알고리즘/2026-3-17.md",
     "telechips_class/C_programming/2026-3-11.md",
-    "raspbian_4.19/interrupt/bottom half/information.md",
-    "raspbian_4.19/interrupt/information.md",
     "raspbian_4.19/interrupt/interrupt 시 컨텍스트 흐름.md",
     "raspbian_4.19/process/thread_info.md",
     "telechips_class/C_programming/C언어_교육자료.pdf",
     "telechips_class/C_programming/포인터_배열_함수_개념정리.pdf",
     "raspbian_4.19/process/information.md",
     "interrupt 시 컨택스트 흐름.md",
-    "raspbian_4.19/interrupt/irq_desc.md",
     "raspbian_4.19/process/커널 스레드 생성.md",
     "telechips_class/자료구조_알고리즘/DFS 작성을 위한 재귀 함수의 이해_1.1.pdf",
     "telechips_class/자료구조_알고리즘",
