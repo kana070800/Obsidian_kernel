@@ -16,6 +16,10 @@ gcc 컴파일러 제공, 전처리 메크로
 
 printk, dump_stack 함수로부터 출력된 커널로그는 /var/log/kern.log 에 저장됨
 
+test_and_set_bit(A,B)은 리눅스 제공 비트단위 and 연산함수
+	결과와 무관하게 B에 A세팅 
+raw_smp_processor_id() 는 현재 실행중인 cpu 번호를 출력하는 함수
+
 ftrace
 ---
 	tracer

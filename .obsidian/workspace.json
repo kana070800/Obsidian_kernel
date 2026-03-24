@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raspbian_4.19/workqueue/worker thread.md",
+                "file": "raspbian_4.19/workqueue/queuing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "worker thread"
+              "title": "queuing"
             }
           }
         ],
@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,9 +213,18 @@
   "active": "8fb7553809d4ad7d",
   "lastOpenFiles": [
     "raspbian_4.19/workqueue/work, workqueue.md",
+    "raspbian_4.19/workqueue/워크큐 자료구조 overall.md",
+    "raspbian_4.19/workqueue/queuing.md",
     "raspbian_4.19/workqueue/worker thread.md",
     "raspbian_4.19/workqueue/information.md",
-    "raspbian_4.19/workqueue/워크큐 자료구조 overall.md",
+    "raspbian_4.19/others.md",
+    "telechips_class/자료구조_알고리즘/강의자료_02.pdf",
+    "telechips_class/자료구조_알고리즘/2026-3-23.md",
+    "raspbian_4.19/process/_do_fork().md",
+    "raspbian_4.19/memory/슬랩 캐시.md",
+    "raspbian_4.19/interrupt/irq_desc.md",
+    "raspbian_4.19/interrupt/interrupt 시 컨텍스트 흐름.md",
+    "raspbian_4.19/interrupt/information.md",
     "raspbian_4.19/interrupt/bottom half/tasklet.md",
     "Excalidraw/Drawing 2026-03-21 13.11.22.excalidraw.md",
     "Excalidraw/Drawing 2026-02-28 14.44.42.excalidraw.md",
@@ -224,27 +233,18 @@
     "raspbian_4.19/interrupt/bottom half/softirq.md",
     "raspbian_4.19/signal/information.md",
     "raspbian_4.19/softirq/softirq에서 컨텍스트 흐름.md",
-    "raspbian_4.19/interrupt/interrupt 시 컨텍스트 흐름.md",
-    "raspbian_4.19/interrupt/information.md",
     "raspbian_4.19/process/thread_info.md",
     "Excalidraw/무제.md",
     "raspbian_4.19/workqueue",
     "Pasted image 20260321132907.png",
     "무제.base",
     "무제 1.base",
-    "telechips_class/자료구조_알고리즘/강의자료_02.pdf",
-    "telechips_class/자료구조_알고리즘/2026-3-23.md",
     "telechips_class/자료구조_알고리즘/DFS 작성을 위한 재귀 함수의 이해_1.1.pdf",
     "telechips_class/자료구조_알고리즘/강의자료_01.pdf",
     "telechips_class/자료구조_알고리즘/Drawing 2026-03-12 15.53.10.excalidraw.md",
     "telechips_class/자료구조_알고리즘/2026-3-20.md",
     "raspbian_4.19/system_call/syscalls.md",
     "raspbian_4.19/system_call/info.md",
-    "raspbian_4.19/interrupt/bottom half/information.md",
-    "raspbian_4.19/interrupt/irq_desc.md",
-    "telechips_class/시간표.md",
-    "telechips_class/C_programming/2026-2-26.md",
-    "telechips_class/자료구조_알고리즘/2026-3-19.md",
     "telechips_class/C_programming/C언어_교육자료.pdf",
     "telechips_class/C_programming/포인터_배열_함수_개념정리.pdf",
     "telechips_class/자료구조_알고리즘",
