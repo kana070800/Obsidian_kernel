@@ -195,4 +195,4 @@ WORK_DATA_STATIC_INIT() 은 두 플래그를 OR연산 수행
 0xFFFF_FFE0는 초기화 후 아직 실행하지 않았다는 의미이다
 
 
-큐잉과정 [[queuing]]
+큐잉과정 [[queuing, acting]]
